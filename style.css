@@ -7,11 +7,16 @@
 body {
   margin: 100px 0;
 }
+.text-center {
+  text-align: center !important;
+}
 
 h1,
 h2,
 h3 {
   text-align: center;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 h1 {
@@ -28,7 +33,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  background: none;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
